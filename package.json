@@ -1,0 +1,30 @@
+{
+  "name": "baidu-cli",
+  "version": "0.0.0",
+  "description": "a mimic work of google-cli, just for fun",
+  "main": "index.js",
+  "bin":{
+  "baidu": "./bin/cli"
+    },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabez128/baidu-cli.git"
+  },
+  "keywords": [
+    "baidu",
+    "cli",
+    "search"
+  ],
+  "author": "jabez128 zhang",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jabez128/baidu-cli/issues"
+  },
+  "homepage": "https://github.com/jabez128/baidu-cli",
+  "dependencies": {
+    "open": "0.0.5"
+  }
+}
