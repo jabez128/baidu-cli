@@ -7,5 +7,4 @@ if(process.argv.length < 3){
 	var keyword = process.argv[2];
 	var url = "http://baidu.com/s?wd="+encodeURIComponent(keyword);
 	open(url);
-	process.exit(0);
 }
